@@ -8,8 +8,8 @@ from functools import partial
 
 TITLE_REGEXP = re.compile(r'<title>(.*)</title>')
 IDXS = range(20)
-URL = 'https://google.com/'
-URLS = [URL] * 20
+URL = 'http://chauvel.org'
+URLS = [URL] * 200
 
 
 async def get(url):
